@@ -2,14 +2,15 @@ cask "catty" do
   version "0.1.0"
   sha256 :no_check # TODO: pin once first release ships
 
-  url "https://github.com/mochiexists/catty-3d/releases/download/v#{version}/Catty-#{version}.dmg",
-      verified: "github.com/mochiexists/catty-3d/"
+  # DMG hosted on the site repo (release-host pattern, mirrors LAIC).
+  url "https://github.com/mochiexists/catty3d-site/releases/download/v#{version}/Catty-#{version}.dmg",
+      verified: "github.com/mochiexists/catty3d-site/"
   name "Catty 3D"
   desc "Terminal that lives in 3D space (local shell + SSH)"
   homepage "https://catty3d.com/"
 
   livecheck do
-    url :url
+    url "https://github.com/mochiexists/catty3d-site/releases/latest"
     strategy :github_latest
   end
 
