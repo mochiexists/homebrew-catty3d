@@ -1,6 +1,6 @@
 cask "catty" do
-  version "0.1.0"
-  sha256 :no_check # TODO: pin once first release ships
+  version "0.1.1"
+  sha256 "020228e293e8b94ee3c4922bbb537663a1250939b09c9b228384d2c298769b2b"
 
   # DMG hosted on the site repo (release-host pattern, mirrors LAIC).
   url "https://github.com/mochiexists/catty3d-site/releases/download/v#{version}/Catty-#{version}.dmg",
