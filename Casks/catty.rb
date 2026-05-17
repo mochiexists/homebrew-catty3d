@@ -1,6 +1,6 @@
 cask "catty" do
   version "0.1.1"
-  sha256 "a4d40cea91ba538e00251d17cc7b72b7dab17f17ac09d0bbab4ee5739bd5ea30"
+  sha256 "3dcd1d42c4ca5ec59776dfda3d5d55990fc1b53a0cccbf86a4775ef3eded98a3"
 
   # DMG hosted on the site repo (release-host pattern, mirrors LAIC).
   url "https://github.com/mochiexists/catty3d-site/releases/download/v#{version}/Catty-#{version}.dmg",
@@ -17,7 +17,7 @@ cask "catty" do
   auto_updates true # Sparkle handles in-app updates
   depends_on macos: ">= :sonoma"
 
-  app "Catty.app"
+  app "Catty 3D.app"
 
   zap trash: [
     "~/Library/Application Scripts/com.mochiexists.Catty",
