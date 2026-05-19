@@ -1,6 +1,6 @@
 cask "catty" do
   version "1.0.0"
-  sha256 "ff76587b2f58c6a379069ed8afece0f1591ad2ac5568a3f1ea720ba10b6779e3"
+  sha256 "bcea4cb681081e75ddefec708e8cbed07edc16ba91d5dfc819b6fb9572375e9d"
 
   # DMG hosted on the site repo (release-host pattern, mirrors LAIC).
   url "https://github.com/mochiexists/catty3d-site/releases/download/v#{version}/Catty-#{version}.dmg",
